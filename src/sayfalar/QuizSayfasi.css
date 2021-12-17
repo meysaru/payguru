@@ -1,0 +1,60 @@
+.pageDiv{
+    margin: auto;
+    justify-content: center;
+}
+.question{
+    width: 60%;
+    background-color: lavender;
+    color: #282c34;
+    justify-content: center;
+    margin: auto;
+    border-radius: 9px ;
+    padding: 10px;
+    padding-bottom: 25px;
+}
+.options{
+    margin: auto;
+    justify-content: left;
+    align-items: start;
+
+}
+.option{
+    margin: 8px;
+    width: 75%;
+    height: 2.3rem;
+}
+.correct{
+    background-color: rgb(7, 207, 0);
+    color: white;
+    /*box-shadow: 0 0 1px black;*/
+    border-color:  rgb(7, 207, 0) ;
+}
+.wrong {
+    background-color: rgb(233, 0, 0);
+    color: white;
+    /*box-shadow: 0 0 1px black;*/
+    border-color: rgb(233, 0, 0) ;
+}
+.sonraki{
+    margin: 3%;
+    padding: 3px;
+    border-radius: 1rem;
+    width: 12%;
+    height: 3rem;
+    font-size: medium;
+    background-color: #800040;
+    color: white;
+    border: 1px solid #800040;
+}
+.sonraki:hover {
+    background-color: #9c1458;
+    border-color: #9c1458;
+}
+.soruSayisi{
+    background-color: slategray;
+    border-radius: 8px;
+    width: 61%;
+    height: 2rem;
+    margin: auto;
+}
+
